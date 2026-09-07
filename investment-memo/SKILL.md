@@ -1,6 +1,6 @@
 ---
 name: investment-memo
-description: "Guides an owner, a startup founder or an operator leading a new line inside an existing company, through building a rigorous Investment Memo as a 5-8 page Word document: the foundational strategy artifact for a new venture or a new business line. Runs an interview-style process that adapts to the owner's domain familiarity, actively researches market, competitor, and 'why now' signals in parallel, then iterates through a critical review that flags weak claims, contradictions, and areas needing more investigation. Use this skill whenever someone wants to turn a raw business idea or a proposed new business line into a structured strategic narrative, whether they are a solo founder or an intrapreneur building a corporate venture. Trigger even if they just say things like 'I want to document my idea properly', 'help me write a founding memo', 'pressure-test my startup thesis', 'I'm starting a company and need to lay out the why', 'should we build this line', 'write an internal business case', 'pressure-test a new line', 'a new proposition inside an existing company', 'let's structure my business case', or 'write an investor memo for my venture'. Always use this skill as the foundation before generating pitch decks, GTM plans, or product strategy docs for a new business or business line."
+description: "Guides an owner, a startup founder or an operator leading a new line inside an existing company, through building a rigorous Investment Memo as a 5-8 page Word document: the foundational strategy artifact for a new venture or business line. Runs an interview-style process that adapts to the owner's domain familiarity, researches market, competitor, and 'why now' signals in parallel, then iterates a critical review that flags weak claims, contradictions, and gaps. Use whenever someone wants to turn a raw business idea or new business line into a structured strategic narrative, whether a solo founder or an intrapreneur building a corporate venture. Trigger even on phrases like 'document my idea properly', 'help me write a founding memo', 'pressure-test my startup thesis', or 'write an investor memo'. Always use as the foundation before generating pitch decks, GTM plans, or product strategy docs for a new business line."
 ---
 
 # Investment Memo
@@ -97,11 +97,13 @@ Section order:
 7. **Market & competition** — how big, who else plays here, what is the contrarian angle?
 8. **Customer discovery status** — how many real conversations, with whom, and what did you actually learn (not what you hoped to hear)?
 9. **Risks, unknowns & falsification criteria** — what would make you wrong? What would you have to see to kill this?
-10. **Milestones & first experiments** — what are you testing in the next 30/60/90 days?
-11. **The ask** — capital, hires, advisors, design partners, or explicitly "none, bootstrapping because X". For a new line inside an existing company: budget, an executive sponsor, a ring-fenced team, mandate, build-vs-buy, and the internal hurdle rate the line must clear.
+10. **Milestones & first experiments** — what are you testing in the next 30/60/90 days, and what is the bigger 12-18 month milestone the funding is meant to reach (MVP in market, first paying enterprise clients, €X ARR)?
+11. **The ask** — the capital (or internal budget) needed to reach the Section 10 milestone, derived bottoms-up from the people, time, infra, and GTM spend it takes to get there. The number is an output of that build-up, not a guess. Plus the 1-2 hires that most change the trajectory, advisor and introduction asks, and design partners; or "none, bootstrapping because X". For a new line inside an existing company: budget, an executive sponsor, a ring-fenced team, mandate, build-vs-buy, and the internal hurdle rate the line must clear.
 12. **Executive summary** — written last, synthesised from the rest.
 
 **Weighting note.** Pre-traction, *Right to win* (Section 4) is the single most load-bearing section. Everything else in the memo is a hypothesis; the team and its operator-market fit is the one thing that is already real, so it carries the most weight. If that section is thin or hand-wavy, the memo is weak no matter how polished the rest is. This holds for a corporate line too: the parent's assets do not rescue a line that lacks a credible team with real insight.
+
+**The ask is bottoms-up.** When you reach Section 11, do not just record a number. Build it up from the Section 10 milestone: the roles and seniority needed, time to MVP and to first revenue, infra and tooling, and GTM hires and spend. Offer benchmark ranges (fully-loaded salaries by role, seniority, and region; typical infra and LLM costs) when the owner is unsure, compute a rough monthly burn, total, runway, and buffer, and tag it Hypothesis. Keep the full build-up — resourcing table and roll-up — in the memo's The Ask section: this is an investment memo, and the numbers are what let an investor evaluate the opportunity. Do not spin the budget out into the companion doc. See `references/interview-questions.md` (Section 11) and `references/memo-template.md` (Section 12).
 
 ### Running research in parallel
 
@@ -136,7 +138,9 @@ This raw material feeds Phase 2.
 
 ## Phase 2: Draft
 
-Once the interview is complete, write the full memo in prose as a Word document using the **docx** skill (read its `SKILL.md` first).
+Once the interview is complete, write the full memo in prose as a Word document using the **docx** skill (read its `SKILL.md` first). The argument lives in the writing; a table or a chart earns its place only by making real evidence land faster than a sentence would.
+
+A visual amplifies, it does not substitute. One goes in only when the owner's real data supports it; never invent a number, a competitor, or a market curve to fill a slot. A missing chart is honest; a fabricated one corrupts the thesis, and the critical review exists partly to catch exactly that. Every visual carries its source. At most one per major section, never one per point.
 
 **Length target: 5-8 pages.** Tight is better than long.
 
@@ -145,11 +149,13 @@ Once the interview is complete, write the full memo in prose as a Word document 
 **Structure** — follow `references/memo-template.md` exactly. Headings, subheadings, and one "Hypothesis" vs. "Conviction" tag per major claim. Short opening executive summary. Short closing "The ask" section.
 
 **Styling:**
+
 - Professional, minimal. Black text, single accent colour.
-- Accent: `0F172A` (near-black) for headings, `2563EB` (blue) sparingly for emphasis or callout boxes.
+- Accent: `0F172A` (near-black) for headings, `2563EB` (blue) sparingly for emphasis, callout boxes, and the Conviction/Hypothesis tags.
 - Body text: 11pt, line spacing 1.15.
 - Headings: bold, 14pt for H1, 12pt for H2.
-- Use a small cover block at the top with: company name, owner name, date, and one-line positioning statement.
+- A small cover block at the top: company name, owner name, date, and a one-line positioning statement.
+- Tables: a header row in the accent, a light grid, no heavy fills.
 - No pitch-deck imagery. This is a document, not a visual artefact.
 
 **Prose style conventions (important):**
@@ -162,7 +168,7 @@ Once the interview is complete, write the full memo in prose as a Word document 
 
 **Encoding note (docx-js):** never use HTML entities in JavaScript string literals — write actual Unicode characters directly (e.g., `'`, `"`, `"`, `—`, `–`), or use Unicode escapes like `\u2019`. HTML entity syntax only works inside XML/HTML, not in JS strings.
 
-Save the first draft as `{company_name}_investment_memo_draft_{YYYY-MM-DD}.docx` in the workspace. Share the path with the owner and tell them to skim it before Phase 3.
+Save the first draft as `{company_name}_investment_memo_draft_{YYYY-MM-DD}.docx` in the workspace. **Then render it and look at every page before sharing** (`soffice --convert-to pdf`, then `pdftoppm` to images): check that no table column is clipped, no heading is stranded at the foot of a page, and — most important — every number in a table matches the prose. A memo you have not looked at is not finished. Share the path with the owner and tell them to skim it before Phase 3.
 
 ---
 
@@ -211,6 +217,8 @@ As critiques become open questions, write them into a separate Word document: **
 1. **Open questions** — grouped by memo section. Each with: the question, why it matters, and what kind of evidence would resolve it.
 2. **Next experiments** — 5-10 concrete things the owner could do in the next 30 days to close the biggest gaps. For each: the experiment, the hypothesis being tested, the success criterion, and a rough time cost. Ordered by priority (highest-information-per-hour first).
 3. **Decisions log** — brief notes on key decisions made during drafting (e.g., "We chose the SMB wedge over enterprise because of GTM velocity, revisit once we see retention data"). Future-them will thank present-them.
+
+The full budget build-up belongs in the memo's The Ask section, not here. If specific cost assumptions are genuinely unresolved, capture them as open questions under item 1 — not as a separate budget section.
 
 This companion doc is as important as the memo. The memo is the static snapshot; the companion doc is what drives the next 30 days of work.
 

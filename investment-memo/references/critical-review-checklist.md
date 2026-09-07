@@ -139,7 +139,20 @@ Every major claim should be tagged **[Conviction]** or **[Hypothesis]**. Flag an
 
 Memos with no customer discovery evidence are essentially fan-fiction. Flag the whole section if so.
 
-## 14. The "smart skeptic" test
+## 14. The ask reconciliation
+
+The ask should be the output of a bottoms-up build-up, not a round number. Check:
+
+- Is the number derived from the Section 11 milestone plus a resourcing plan (people, time, infra, GTM), or plucked top-down?
+- Does the resourcing plan actually deliver the stated milestone? (A two-person team on a six-month runway will not ship an MVP and land five enterprise logos.)
+- Does the implied monthly burn reconcile with the GTM motion and pricing? (An enterprise sales team against a self-serve ACV is broken; so is a self-serve plan carrying a €200k field-sales budget.)
+- Is headcount costed fully-loaded (base + employer taxes + overhead), not at base salary?
+- Is there a buffer, and does the stated runway survive it?
+- Does the raise reach a milestone that justifies the next stage, or, for a corporate line, clear the stated hurdle rate?
+
+If the ask is a number with no build-up behind it, treat the whole section as a hypothesis and ask for the resourcing logic.
+
+## 15. The "smart skeptic" test
 
 Read the memo from the perspective of a smart, friendly skeptic. Ask:
 
@@ -160,6 +173,6 @@ Group findings under four headings when presenting to the owner:
 3. **Missing evidence** — what would make this section credible.
 4. **The three sharpest questions** — the ones the owner should sit with this week.
 
-Don't list all 14 checks separately in the output. The owner wants sharpness, not checklists.
+Don't list all 15 checks separately in the output. The owner wants sharpness, not checklists.
 
 Keep the tone warm but direct. This is the most valuable part of the skill — the owner is paying for clarity, not politeness.

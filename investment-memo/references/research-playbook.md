@@ -81,8 +81,11 @@ Web-search strategies for each section of the memo. Use during Phase 1 (Intervie
 
 ### The ask
 
+- **Benchmark the build-up inputs** so you can offer ranges when the owner is unsure:
+  - Fully-loaded salary by role, seniority, and region (engineering, sales, design, product). Sources: Levels.fyi, Glassdoor, local market salary reports, recent job posts with salary bands. Gross base up to fully-loaded (employer taxes + overhead), roughly 1.2-1.4x base in much of the EU.
+  - Infra and LLM/inference costs: cloud and model-API pricing pages, so a usage estimate can be sanity-checked.
 - If the owner is considering fundraising, check the current funding environment for their category — recent deal sizes, active investors, stage norms.
-- Query: `"[category] + seed round 2025"`, `"investors + [vertical]"`, `"[region] VC + [stage]"`.
+- Query: `"[category] + seed round 2025"`, `"[role] salary [region] 2025"`, `"investors + [vertical]"`, `"[region] VC + [stage]"`.
 
 ---
 

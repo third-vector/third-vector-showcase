@@ -200,16 +200,40 @@ The "why you" bank, and the most important section pre-traction. The load-bearin
 
 ## Section 11: The ask
 
-**Core:**
-- Are you raising capital, bootstrapping, or somewhere in between?
-- If raising: how much, for what, and on what timeline?
-- What 1-2 hires would most change the trajectory?
-- Who are the 3-5 ideal early customers you'd want introductions to?
-- What other support — advisors, partners, expertise — would be high-leverage?
+Don't ask for "the number" first. Build it up from the milestone, then let the number fall out. Walk through this sequence, offer benchmark ranges when the owner is unsure, and reflect a rough roll-up back to them at the end.
 
-**Bootstrapping-specific addition:**
+**Anchor on the milestone:**
+- What's the one milestone this money has to get you to in the next 12-18 months? (MVP in market, first 3 paying enterprise clients, €X ARR, a specific technical de-risk.) Why that one?
+
+**People (usually 70-80% of the burn):**
+- What has to get built and sold to hit it, and who does that work?
+- Engineering: how many devs, what seniority, and when do they start? Roughly how long to a working MVP with that team?
+- Go-to-market: when do you need a first salesperson, and what kind (founder-led, founding AE, SDR)?
+- Any other roles: design, product, ops, support?
+- For each role, do you have a fully-loaded cost in mind (base + employer taxes + overhead), or should I give you a benchmark range for that role, seniority, and region?
+
+**Time:**
+- How many months to MVP? How many months until first revenue? (This sets how long you burn before any offset.)
+
+**Infra, tooling, and the lumpy stuff:**
+- Rough monthly spend on cloud, LLM/inference, data, and SaaS tools?
+- Anything one-off or lumpy: legal, compliance, certifications, hardware, travel?
+
+**Roll it up and pressure-test:**
+- [Compute a rough monthly burn, total over the runway, and a 20-30% buffer, then reflect it back.] "That build-up lands around €X over Y months. Does that match what you had in your head? If it's way off, which assumption is wrong?"
+- What runway do you want this to buy (months)?
+
+**Other asks (beyond money):**
+- The 1-2 hires that most change the trajectory, the 3-5 ideal design partners, and any advisor or introduction asks.
+
+**Bootstrapping-specific:**
 - Why is bootstrapping the right choice for this specific business (not just a default)?
-- What's the revenue milestone that would let you hire #1?
+- Invert the build-up: what revenue level unlocks hire #1, then hire #2?
+
+**Corporate / new-line additions:**
+- Same build-up, but the output is a budget request: headcount approval, infra and tooling spend, runway to the milestone.
+- What internal hurdle rate (ROI, payback period) does this line have to clear to win budget against other bets?
+- Is the ask one tranche, or staged against milestones, with more budget released as proof points land?
 
 ---
 
