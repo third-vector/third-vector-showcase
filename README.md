@@ -12,8 +12,6 @@ We build these because we use them ourselves. If one is useful to you, fork it, 
 
 Walks a solo or early-stage founder through writing a rigorous Investment Memo for a new business. Five phases: calibrate, interview, draft, critical review, iterate. Produces a 5 to 8 page Word document plus a companion list of open questions and next experiments. The foundational strategy artefact that feeds into everything downstream: pitch decks, GTM plans, website copy, hiring pitches.
 
-Background and recommended process: *[Write the Memo First](https://thirdv3ctor.substack.com)* on the Blueishprint *(link to be updated on publish)*.
-
 ## Downloading a skill and associated reference files
 
 Go to [download-directory.github.io](https://download-directory.github.io/) and drop the repo URL of the Claude Skill you want to use. Output: a zipped folder you can upload to Claude (go to Customize in the side bar or simply drop the folder in the chat).
@@ -44,4 +42,4 @@ MIT. Use these skills however you like, commercially or otherwise. A credit is a
 
 ## About Third Vector
 
-[Third Vector](https://www.thirdvector.io) helps European businesses become AI-native. Based in Rotterdam, the Netherlands. Follow the work on [The Blueishprint](https://thirdv3ctor.substack.com) and on [LinkedIn](https://www.linkedin.com/company/third-vector-eu).
+[Third Vector](https://www.thirdvector.io) helps European businesses become AI-native. Based in Rotterdam, the Netherlands. Follow the work on [The Blueishprint](https://thirdv3ctor.substack.com) and on [LinkedIn](https://www.linkedin.com/company/third-vector-hq/).
