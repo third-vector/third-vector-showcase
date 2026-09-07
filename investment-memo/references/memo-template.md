@@ -195,36 +195,51 @@ A short, concrete list of what you'll do in the next 30 / 60 / 90 days.
 
 Keep it to 3-5 items per horizon. A long list is a todo list, not a plan.
 
+Also name the **headline milestone** the ask in Section 12 funds: the 12-18 month proof point (MVP in market, first N paying enterprise customers, €X ARR, a specific technical de-risk). Sections 11 and 12 must be consistent: the budget buys this milestone.
+
 ---
 
-## 12. The ask (¼ page)
+## 12. The ask (½–1 page)
 
-What do you actually need?
+The number is an output, not an input. Derive it bottoms-up from the headline milestone in Section 11: what it takes to get there, rolled into a burn and a runway.
 
-Options:
+Build it up and show the full build-up here, in the memo — the numbers are what let an investor evaluate the ask, so they stay in this section rather than being moved to the companion doc:
 
-- **Capital** — specific amount and what you'd spend it on. Not a use-of-funds pie chart, a specific 18-month plan.
-- **Hires** — the 1-2 roles that would most change the trajectory.
-- **Advisors or introductions** — named, specific asks.
-- **Design partners** — the ideal first 3-5 customers.
-- **Internal mandate (for a new line inside an existing company)** — budget, an executive sponsor, a ring-fenced team, a clear mandate, a build-vs-buy decision, and the internal hurdle rate this line has to clear to win funding against other bets.
-- **Nothing, bootstrapping** — in which case, explicitly say so and explain why bootstrapping is the right choice for this particular business.
+1. **People** (usually 70-80% of the burn). The roles needed to hit the milestone, with seniority and rough start month. Use *fully-loaded* cost (base + employer taxes + overhead), not base salary. A compact table works well:
 
-This section is short but important. It tells the reader how to help.
+   | Role | Seniority | FTE | Starts | Fully-loaded / yr |
+   |---|---|---|---|---|
+   | Backend engineer | Senior | 2 | M0 | €110-130k |
+   | Founding AE | Mid-senior | 1 | M4 | €90-110k + commission |
+   | Product designer | Mid | 0.5 | M2 | €45-55k |
 
-**Common failure:** a vague "we're raising $X" (or "we need headcount") without a specific plan for what it funds, or a bootstrapping note that sounds like resignation instead of conviction.
+2. **Time.** Months to MVP, and months to first revenue. This sets how long you burn before any offset.
+3. **Infra & tooling.** Cloud, LLM/inference, data, SaaS, as a monthly figure.
+4. **GTM & other.** Sales tooling, marketing experiments, travel, legal/compliance.
+5. **Roll-up.** Monthly burn × runway (to the milestone, plus margin) + a 20-30% buffer = the ask. State the runway it buys.
+
+Then state the ask in one or two sentences: the **amount**, the **milestone it funds**, and the **runway** it provides. Tag it **[Hypothesis]** unless the costs are firm.
+
+For a **new line inside an existing company**, the same build-up produces a budget request rather than a raise: headcount approval, infra and tooling spend, the runway to the milestone, and the internal hurdle rate this line must clear against other bets.
+
+For **bootstrapping**, invert it: show which revenue level unlocks each hire, and why bootstrapping is the right choice for this business rather than a default.
+
+Also name briefly: the 1-2 **hires** that most change the trajectory, any **advisor or introduction** asks, and the ideal **design partners**.
+
+**Common failures:** a round number with no build-up behind it; a hiring plan that doesn't actually deliver the stated milestone; burn that contradicts the GTM motion or pricing (an enterprise sales team against a self-serve ACV); forgetting the buffer, so the real runway is shorter than claimed.
 
 ---
 
 ## Formatting rules (summary)
 
-- 5-8 pages total. Tight.
-- Full prose, no bullet-heavy slides-as-docs.
+- 5-8 pages total. Tight. Prose-first, no bullet-heavy slides-as-docs.
 - Body: 11pt, line spacing 1.15.
 - H1: bold 14pt, `0F172A`. H2: bold 12pt.
 - Accent blue `2563EB` sparingly (section callouts, the Conviction/Hypothesis tags).
 - One cover block at top. No imagery.
+- A table or chart goes in **only when the owner's real data supports it**, never to fill a slot. Do not fabricate a number, a competitor, or a market curve. A missing visual is honest; a fabricated one corrupts the thesis. Every visual carries its source.
 - Tag every major claim as **[Conviction]** or **[Hypothesis]**.
+- Render the finished document and read every page before sharing it. A memo you have not looked at is not finished.
 - File name: `{company_name}_investment_memo_{YYYY-MM-DD}.docx`.
 
 ## Style conventions

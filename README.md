@@ -1,6 +1,6 @@
 # Claude Skills by Third Vector
 
-Open-source Claude Skills built by [Third Vector](https://thirdvector.eu) for founders, operators, and GTM teams.
+Open-source Claude Skills built by [Third Vector](https://www.thirdvector.io) for founders, operators, and GTM teams.
 
 A Claude Skill is a structured set of instructions that Claude uses to guide a specific task, from writing an investment memo to enriching a sales target list. Well-designed skills produce sharper, more consistent output than an unprimed prompt, because they encode a repeatable process and the hard-won conventions of the domain.
 
@@ -23,7 +23,7 @@ Go to [download-directory.github.io](https://download-directory.github.io/) and 
 Clone this repo and copy the skill folder you want into your local Claude skills directory.
 
 ```bash
-git clone https://github.com/third-vector-eu/claude-skills.git
+git clone https://github.com/third-vector/claude-skills.git
 cp -r claude-skills/investment-memo ~/.claude/skills/
 ```
 
@@ -44,4 +44,4 @@ MIT. Use these skills however you like, commercially or otherwise. A credit is a
 
 ## About Third Vector
 
-[Third Vector](https://thirdvector.eu) helps European businesses become AI-native. Based in Rotterdam, the Netherlands. Follow the work on [The Blueishprint](https://thirdv3ctor.substack.com) and on [LinkedIn](https://www.linkedin.com/company/third-vector-eu).
+[Third Vector](https://www.thirdvector.io) helps European businesses become AI-native. Based in Rotterdam, the Netherlands. Follow the work on [The Blueishprint](https://thirdv3ctor.substack.com) and on [LinkedIn](https://www.linkedin.com/company/third-vector-eu).
