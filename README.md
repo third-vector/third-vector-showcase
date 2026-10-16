@@ -21,8 +21,8 @@ Go to [download-directory.github.io](https://download-directory.github.io/) and 
 Clone this repo and copy the skill folder you want into your local Claude skills directory.
 
 ```bash
-git clone https://github.com/third-vector/claude-skills.git
-cp -r claude-skills/investment-memo ~/.claude/skills/
+git clone https://github.com/third-vector/third-vector-showcase.git
+cp -r third-vector-showcase/investment-memo ~/.claude/skills/
 ```
 
 The target path depends on which Claude product you are using.
